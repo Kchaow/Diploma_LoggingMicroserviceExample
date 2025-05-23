@@ -62,8 +62,8 @@
 		</dependency>
 		<dependency>
 			<groupId>letunov</groupId>
-			<artifactId>contract-api</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<artifactId>contract-metadata</artifactId>
+			<version>1.0</version>
 		</dependency>
 	</dependencies>
 
@@ -97,10 +97,6 @@
 				<groupId>letunov</groupId>
 				<artifactId>spec-provider-maven-plugin</artifactId>
 				<version>1.0-SNAPSHOT</version>
-				<configuration>
-					<m2Repo>C:\java\m2-repo</m2Repo>
-					<microserviceIntegrityServerBaseURL>http://localhost:8081/api/v1</microserviceIntegrityServerBaseURL>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
